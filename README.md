@@ -1,6 +1,6 @@
 
 # Kuba_Army_Hospital_Contacts
-<p align="center"><img src="https://img.icons8.com/ios/250/000000/inventory-flow.png"/></p>
+<p align="center"><img src="https://img.icons8.com/ios/480/000000/inventory-flow.png"/></p>
 
 CRUD System For Kuba Contacts With Flexible Search
 Used For Helping Employees  To Contact EachOther.
