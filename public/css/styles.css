@@ -1,0 +1,315 @@
+body{padding:0;margin:0;background:#dadaef;font-family:'Droid Arabic Kufi',Segoe UI;overflow-x:hidden}
+@font-face{font-family:'Droid Arabic Kufi';src:url('../webfonts/Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf')}
+input[type="text"],input[type="password"],input[type="number"],input[type="tel"],input[type="email"],select{direction: rtl; 
+    background:#f7f7f7;border:1px #999 solid;height:40px;padding-right:10px;border-radius:5px}
+.projectContainer{direction:rtl}
+.backButton{float:left;width:100px;margin-top:10px;clear:both}
+input[type="submit"]{cursor:pointer}
+button[type="submit"]{cursor:pointer}
+/*---------------------------------------Start Header Design--------------------------------------------------*/
+.header{height:60px;background:#262b36;margin:0}
+.header h3{float:right;color:#fff;height:60px;line-height:60px;padding-right:10px}
+/*----------------------------------------End Header Design---------------------------------------------------*/
+
+/*--------------------------------------Start Dashboard Design-------------------------------------------------*/
+.dashbordManu{background:#262b36;color:#eee;padding:0;box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.8), 0 2px 12px 0 rgba(0, 0, 0, 0.8)}
+.dashbordManu ul{direction:rtl;list-style:none;width:100%;margin:0;padding:0}
+.dashbordManu ul li{text-align:center;border-bottom:1px #000 solid;cursor:pointer}
+.dashbordManu ul li:last-child, .dashbordManu ul .logout{border-bottom:none}
+.dashbordManu ul li span,.dashbordManu ul li a{display:block;padding:15px 0}
+.dashbordManu ul .logout a, .dashbordManu ul .reportDashboard a{padding:0}
+.dashbordManu ul li a{text-decoration:none;color:#eee}
+.dashbordManu ul li span:hover,.dashbordManu ul li a:hover{font-weight:bold}
+.salesSubDash,.stockSubDash,.importSubDash,.expenseSubDash,.purchasesSubDash,.supplierSubDash,.customerSubDash,.employerSubDash,.userDashboardSubDash{background:#343a47;
+    display:none}
+/*---------------------------------------End Dashboard Design--------------------------------------------------*/
+
+/*--------------------------------------Start Login page Design-------------------------------------------------*/
+.loginCont{width:100%;text-align:center;margin:110px auto 0;box-shadow:0 2px 8px 0 rgba(0, 0, 0, 0.8), 0 2px 12px 0 rgba(0, 0, 0, 0.8);
+    padding:20px 0;border-radius:5px}
+.loginCont h3{font-weight:bold}
+.loginCont input[type="text"], .loginCont input[type="password"]{width:70%;height:45px}
+.loginCont input[type="text"]{margin:60px 0 20px}.loginCont input[type="password"]{margin-bottom:40px}
+.loginCont input[type="submit"]{width:70%;height:50px}
+@media all and (max-width:768px){.loginCont{width:60%}}
+@media all and (max-width:500px){.loginCont{width:80%}}
+/*---------------------------------------End Login page Design--------------------------------------------------*/
+
+/*-------------------------------------------Start Home Page----------------------------------------------------*/
+.welcomeMsg{border-bottom:1px #999 solid;width:100%;padding:50px 0;text-align:center}
+.welcomeMsg form{display:inline-block}
+.homeTable tr:last-child td{padding:30px 0}
+.homeTable td i{color:#c94646}
+.homeTable tr:last-child td i{color:#009944}
+.restore, .backup{float:left;margin:0 0 20px 10px;width:25%;}
+/*--------------------------------------------End Home Page-----------------------------------------------------*/
+
+/*--------------------------------------Start Sales page Design-------------------------------------------------*/
+.salesInput{direction:rtl;overflow:hidden;margin:20px 0}
+.salesInput label{font-size:18px;font-weight:bold}
+.salesInput input[type="text"],.salesInput input[type="number"]{width:35%;margin-bottom:10px}
+.salesInput input[type="submit"]{height:50px;width:30%;float:left;margin:0 0 10px 10px}
+.salesInput textarea{width:70%;border-radius:5px;resize:none;background:#f7f7f7;padding-right:10px;height:60px}
+.salesTable{border:2px #555 solid;margin:40px auto 0;width:80%;direction:rtl}
+.salesHeader{background:#262b36;color:#fff}
+.salesTable td{padding:12px 0;border-bottom:1px #555 solid;border-left:1px #555 solid;text-align:center}
+.salesTable td:last-child,.salesTable td:nth-child(6){padding:0}
+.salesTable td:last-child i,.salesTable td:nth-child(6) i{cursor:pointer;color:#404c66}
+.salesTable td:last-child i:hover,.salesTable td:nth-child(6) i:hover{color:#262b36}
+.totalTable{border:2px #555 solid;border-top:none;margin:0 auto 20px;width:80%;direction:rtl}
+.totalTable td{padding:12px 0;text-align:center;font-weight:bold}
+.totalTable .totalheader{background:#262b36;color:#f2f2f2;width:30%}
+.printBill,.cancleBill{width:20%;height:50px;margin:30px 0 20px 10px;float:left}
+.payingWay{width:50%;margin-right:40px;float:right}
+.payingWay select{width:60%;margin-bottom:5px}
+.payingWay input{width:60%;margin:0 10% 5px 0;display:none}
+/*---------------------------------------End Sales page Design--------------------------------------------------*/
+
+/*-------------------Start GeneralBillEdit & PackageBillEdit& SupplierBillEdit page Design----------------------*/
+.generalBillEdit,.packageBillEdit,.supplierBillEdit{margin:50px 20px 0 0}
+.generalBillEdit label,.packageBillEdit label,.supplierBillEdit label{font-size:18px;font-weight:bold;width:210px}
+.generalBillEdit input[type="text"],.generalBillEdit select,.packageBillEdit input[type="text"],.packageBillEdit                            select,.supplierBillEdit input[type="text"],.supplierBillEdit select{width:30%;margin-bottom:10px}
+.generalBillEdit textarea,.packageBillEdit textarea,.supplierBillEdit textarea{width:30%;border-radius:5px;resize:none; 
+    background:#f7f7f7;padding-right:10px}
+.generalBillEdit input[type="submit"],.packageBillEdit input[type="submit"],.supplierBillEdit input[type="submit"]{float:left; 
+    margin:30px 0 0 20px;width:30%;height:45px}
+/*--------------------End GeneralBillEdit & PackageBillEdit & SupplierBillEdit page Design----------------------*/
+
+/*------------------------------Start AddProduct & EditProduct page Design--------------------------------------*/
+.addProduct,.editProduct{margin:50px 20px 0 0}
+.addProduct label,.editProduct label{font-size:18px;font-weight:bold;width:210px}
+.addProduct input[type="text"],.addProduct input[type="number"],.addProduct select,.editProduct input[type="text"],.editProduct            input[type="number"],.editProduct select{width:30%;margin-bottom:10px}
+.addProduct textarea,.editProduct textarea{width:30%;border-radius:5px;resize:none;background:#f7f7f7}
+.addProduct input[type="submit"],.editProduct input[type="submit"]{float:left;margin:30px 0 0 20px;width:30%;height:45px}
+/*-------------------------------End AddProduct & EditProduct page Design---------------------------------------*/
+
+/*-----------------------------------Start Add Department page Design-------------------------------------------*/
+.addDepartment{margin:50px 20px 0 0}
+.addDepartment label{font-size:18px;font-weight:bold;width:150px}
+.addDepartment input[type="text"]{width:40%;margin-bottom:10px}
+.addDepartment input[type="submit"]{float:left;margin:30px 0 0 70px;width:30%;height:50px}
+/*------------------------------------End Add Department page Design--------------------------------------------*/
+.expencesInfoInput{overflow:hidden;width:100%;margin-top:50px;direction:rtl}
+.expencesInfoInput .searchBy{width:50%;float:right}
+.inputElement{width:70%;min-height:50px;float:right}
+.expencesInfoInput .statusInput{margin-top:10px;width:100%;display:none}
+.expencesInfoInput .date{margin-top:0}
+.expencesInfoInput .date label{width:100px;display:inline-block;margin-right:10%}
+.expencesInfoInput .date #dom-id{width:60%}
+.expencesInfoInput .date #dom-id:last-child{margin-bottom:0}
+.expencesInfoInput textarea{border-radius:5px;resize:none;background:#f7f7f7;padding:5px 10px 0 0;width:100%;height:90px;display:none;
+    margin-top:10px}
+.expencesInfoInput .show{float:left;width:30%;margin:20px 0 0 20px}
+/*------------------------------------Start Add Expences page Design--------------------------------------------*/
+.addExpences{margin:50px 20px 0 0}
+.addExpences label{font-size:18px;font-weight:bold;width:150px}
+.addExpences input[type="text"]{width:40%;margin-bottom:10px}
+.addExpences textarea{width:40%;resize:none;background:#f7f7f7;border-radius:5px;padding-right:10px}
+.addExpences input[type="submit"]{float:left;margin:10px 0 0 30px;height:50px;width:30%}
+/*-------------------------------------End Add Expences page Design---------------------------------------------*/
+
+/*------------Start ExpencesTable & payBillTable & packageBillTable & generalBillTable page Design--------------*/
+.expencesTable,.payBillTable,.packageBillTable,.generalBillTable{border:2px #555 solid;margin:40px auto;width:80%;direction:rtl}
+.expencesHeader,.payBillHeader,.packageBillHeader,.generalBillHeader{background:#262b36;color:#fff}
+.expencesTable td,.payBillTable td,.packageBillTable td,.generalBillTable td{padding:12px 0;border-bottom:1px #555 solid;text-align: 
+    center;border-left:1px #555 solid}
+.expencesTable td i,.payBillTable td i,.packageBillTable td i,.generalBillTable td i{cursor:pointer;color:#404c66}
+.expencesTable td i:hover,.payBillTable td i:hover,.packageBillTable td i:hover,.generalBillTable td i:hover{color:#262b36}
+.payBillTable td:last-child,.packageBillTable td:last-child,.generalBillTable td:last-child{padding:0}
+/*--------------End ExpencesTable & payBillTable & packageBillTable & generalBillTable page Design---------------*/
+
+/*------------------------------------Start Bill Details page Design---------------------------------------------*/
+.billDetailsTable{border:2px #555 solid;margin:40px auto 20px;width:80%;direction:rtl}
+.billDetailsTable label{background:#262b36;color:#fff;text-align:center;margin:0;padding:12px 0;border-bottom:1px #555 solid}
+.billDetailsTable p{border-bottom:1px #aaa solid;margin:0;padding:12px 10px 12px 0}
+.infoEdit, .deleteBill{float:left;height:40px;width:30%;margin:0 10px 20px 0}
+/*-------------------------------------End Bill Details page Design----------------------------------------------*/
+
+/*----------------------------------------Start Bill Design Page-------------------------------------------------*/
+.billDesign{direction:rtl;width:400px;margin:50px auto 20px;border:2px #999 solid;border-radius:5px;overflow:hidden}
+.billDesign .billHeader{border-bottom:1px #999 solid;width:100%}
+.billDesign h3{width:330px;margin:20px auto;font-weight:bold}
+.billDesign span{display:inline-block;font-size:15px}
+.billDesign .billInfo{width:100%;text-align:center}
+.billDesign .billInfo label{font-weight:bold;font-size:15px}
+.billDesign .billInfo span:nth-child(2),.billDesign .billInfo span:nth-child(7){margin-left:50px}
+.billDesign .billClientDate{margin:10px 30px 0 0}
+.billDesign .billClientDate label{font-weight:bold;width:100px;font-size:16px}
+.billDesign .billClientDate span{font-size:15px}
+.billDesign .billDesignTable{margin:10px 0 0;border:2px #999 solid;border-right:0;border-left:0}
+.billDesign .billDesignTotal{margin:0 auto;width:100%;border:2px #999 solid;border-top:0;border-right:0;border-left:0}
+.billDesign .dibtPayBill{width:100%;margin:0 auto 20px;border:2px #999 solid;border-top:0;border-right:0;border-left:0}
+.billDesign table td{padding:10px 0;border-bottom:1px #999 solid;text-align:center;font-size:15px;border-left:1px #999 solid}
+.billDesign table td:last-child{border-left:0}
+.billDesign table .billDesignTH{font-weight:bold}
+.billDesign .billDesignTotal td:last-child,.billDesign .dibtPayBill td:nth-child(2),.billDesign .dibtPayBill td:last-child{
+    font-weight:bold}
+.billDesign .billNotes{margin:0 5px 40px}
+.billDesign .billNotes label{font-weight:bold;font-size:16px}
+.billDesign .billNotes span{word-wrap:break-word;font-size:15px}
+/*-----------------------------------------End Bill Design Page--------------------------------------------------*/
+
+/*----------------------------------------Start Date page Design------------------------------------------------*/
+.date{margin-top:50px}
+.date label{font-size:18px;font-weight:bold;width:120px;margin-right:150px}
+.date #dom-id{width:30%;direction:ltr;margin-bottom:15px;padding-left:10px}
+.date .show{float:left;width:30%;margin:0 0 30px 40px}
+/*-----------------------------------------End Date page Design-------------------------------------------------*/
+
+/*----------------------------Start NewSupplier & NewCustomer page Design---------------------------------------*/
+.newSupplier, .newCustomer{direction:rtl;margin:50px 20px 0 0}
+.newSupplier label,.newCustomer label{font-size:18px;font-weight:bold;width:120px}
+.newSupplier input[type="text"],.newSupplier input[type="number"],.newSupplier input[type="tel"],.newCustomer input[type="text"],       .newCustomer input[type="number"],.newCustomer input[type="tel"]{padding-right:10px;margin-bottom :20px}
+.fName,.mName,.lName{width:200px}
+.cAddress,.rAddress, select{width:150px}.nAddress{width:300px}
+.newSupplier textarea,.newCustomer textarea{width:56%;resize:none;background:#f7f7f7;padding-right:10px;border-radius:5px}
+.newSupplier input[type="submit"],.newCustomer input[type="submit"]{float:left;margin:10px 0 0 10px;height:50px;width:30%}
+/*-----------------------------End NewSupplier & NewCustomer page Design----------------------------------------*/
+
+/*--------------------------Start ActionOnDebt & ActionOnReceivable page Design---------------------------------*/
+.actionOnDebt, .actionOnReceivable{margin:50px 20px 0 0}
+.actionOnDebt label, .actionOnReceivable label{font-size:18px;font-weight:bold;width:170px}
+.actionOnDebt input[type="text"],.actionOnDebt input[type="number"],.actionOnReceivable input[type="text"],.actionOnReceivable input[type="number"]{width:30%;margin-bottom:20px}
+.actionOnDebt input[type="submit"],.actionOnReceivable input[type="submit"]{float:left;width:30%;height:45px;margin-left:20px}
+/*---------------------------End ActionOnDebt & ActionOnReceivable page Design----------------------------------*/
+
+/*-----------------------------------Start NewEmployer page Design----------------------------------------------*/
+.newEmpolyer{direction:rtl;margin:50px 20px 0 0}
+.newEmpolyer label{font-size:18px;font-weight:bold;width:120px}
+.newEmpolyer input[type="text"],.newEmpolyer input[type="number"],.newEmpolyer input[type="tel"]{ padding-right:10px;margin-bottom: 
+    20px}
+.fName,.mName,.lName{width:200px}
+.cAddress,.rAddress, select{width:150px}.nAddress{width:300px}
+.newEmpolyer textarea{width:56%;resize:none;background:#f7f7f7;padding-right:10px;border-radius:5px}
+.newEmpolyer input[type="submit"]{float:left;margin:10px 0 0 10px;height:50px;width:30%}
+/*------------------------------------End NewEmployer page Design-----------------------------------------------*/
+
+/*------------------Start EmployersTable,suppliersTable,customersTable,StockTable page Design-------------------*/
+.employersTable,.suppliersTable,.customersTable,.stockTable,.homeTable,.userTable{border:2px #555 solid;margin:40px auto;width:80%;direction:rtl}
+.employersHeader,.suppliersHeader,.customersHeader,.stockHeader,.homeHeader,.userHeader{background:#262b36;color:#fff}
+.employersTable td,.suppliersTable td,.customersTable td,.stockTable td,.homeTable td,.userTable td{padding:12px 0;border-bottom:1px #555 solid;text-align:center; 
+    border-left:1px #555 solid}
+.employersTable td i,.suppliersTable td i,.customersTable td i,.stockTable td i,.userTable td i{cursor:pointer;color:#404c66}
+.employersTable td i:hover,.suppliersTable td i:hover,.customersTable td i:hover,.stockTable td i:hover,.userTable td i:hover{color:#262b36}
+.employersTable td:last-child,.employersTable td:nth-child(4),.suppliersTable td:last-child,.suppliersTable td:nth-child(4),.customersTable td:last-child,.customersTable td:nth-child(4),.stockTable td:last-child,.userTable td:last-child{padding:0}
+/*--------------------End EmployersTable,suppliersTable,customersTable,StockTable page Design-------------------*/
+
+/*-------------Start EmployerDetails,supplierDetails,customerDetails,productDetails page Design-----------------*/
+.employerTable,.supplierTable,.customerTable,.productTable,.userDetailsTable{border:2px #555 solid;margin:40px auto;border-radius:5px;width:80%; 
+    direction:rtl}
+.employerTable label,.supplierTable label,.customerTable label,.productTable label,.userDetailsTable label{background:#262b36;color:#fff;text-align:center; 
+    margin:0;padding:12px 0;border-bottom:1px #555 solid}
+.employerTable p,.supplierTable p,.customerTable p,.productTable p ,.userDetailsTable p{border-bottom:1px #aaa solid;margin:0;padding:12px 10px 12px 0}
+.infoEdit, .salaryEdit,.deleteEmployer,.depitAction,.deleteSupplier,.deleteCustomer,.deleteProduct ,.deleteUser{float:left;height:40px;width:30%;
+    margin-right:10px}
+.productTable,.deleteProduct{margin-bottom:20px}
+/*-----------------End EmployerDetails,supplierDetails,customerDetails,productDetails page Design----------------*/
+
+/*-------------------------------Start Employer EditSalary page Design-------------------------------------------*/
+.editSalary{margin:20px 10px 0 0}
+.editSalary label{font-size:18px;font-weight:bold;display:block}
+.editSalary textarea{background:#f7f7f7;width:700px;height:100px;padding-top:10px;resize:none;border-radius:5px}
+.editSalary input[type="submit"]{width:30%;height:45px;float:left;margin:20px 0 0 30px}
+/*-----------------------------------End Employer EditSalary Design----------------------------------------------*/
+
+/*-------------------------------------Start SalaryHistory Design------------------------------------------------*/
+.salaryHistory{width:60%;margin:30px auto}
+.salaryHistory label{font-size:18px;font-weight:bold;width:23%}
+.salaryHistory input[type="text"]{width:50%}
+.salaryHistory a{width:20%;margin-top:3px}
+.salaryHistory .emplyermanu{width:50%;height:20px;position:relative;margin-right:24%}
+.salaryActionTable{border:2px #555 solid;margin:40px auto;width:80%;direction:rtl}
+.salaryActionHeader{background:#262b36;color:#fff}
+.salaryActionTable td{padding:12px 0;border-bottom:1px #555 solid;border-left:1px #555 solid;text-align:center}
+@media all and (max-width:1225px){.salaryHistory{width:80%}}
+@media all and (max-width:898px){.salaryHistory{width:95%}}
+/*--------------------------------------End SalaryHistory Design-------------------------------------------------*/
+
+/*-----------------------------------Start User Activities Page-------------------------------------------------*/
+.userActivitiesInput{margin-top:40px;overflow:hidden;padding:20px 0}
+.userActivitiesInput label{font-size:18px;font-weight:bold;width:130px;margin-right:100px}
+.userActivitiesInput input[type="text"]{width:41%;margin-bottom:10px}
+.userActivitiesInput #dom-id{width:20%;direction:ltr;margin-bottom:15px;padding-left:10px;display:inline-block}
+.userActivitiesInput .dateText2{margin-right:5px}
+.userActivitiesInput .show{float:left;width:30%;margin-left:30px}
+.userActivitiesCont{width:90%;border:2px #999 solid;margin:0 auto 10px}
+.userActivitiesCont tr{border-bottom:2px #999 solid}
+.userActivitiesCont tr td:first-child{font-size:18px;font-weight:bold;text-align:center;width:30%;background:#262b36;color:#fff}
+.activityDetail{padding-right:50px}.activityDetail span{margin-bottom:5px}
+.activityDetail span:first-child{font-weight:bold;display:inline-block;width:120px}
+/*------------------------------------End User Activities Page--------------------------------------------------*/
+
+.reportCont{border:2px #555 solid;margin:70px auto 20px;border-radius:5px;width:80%;direction:rtl}
+.reportCont label{background:#262b36;color:#fff;text-align:center;margin:0;padding:12px 0;border-bottom:1px #555 solid}
+.reportCont p{border-bottom:1px #aaa solid;margin:0;padding:12px 10px 12px 0}
+.reportForm input[type="submit"]{float:left;margin:10px 0 20px 30px;width:30%}
+
+
+/** checkboxes for floors*/
+
+.funkyradio label {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    font-weight: normal;
+  }
+  
+  .funkyradio input[type="checkbox"]:empty {
+    display: none;
+  }
+  
+  .funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 2em;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  .funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: #888;
+  }
+  
+  .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+  }
+  
+  .funkyradio input[type="checkbox"]:checked ~ label {
+    color: #777;
+  }
+  
+  .funkyradio input[type="checkbox"]:checked ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #333;
+    background-color: #ccc;
+  }
+  
+  .funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+  }
+
+  .funkyradio-success input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5cb85c;
+  }
+  
+  /** checkboxes for floors*/
