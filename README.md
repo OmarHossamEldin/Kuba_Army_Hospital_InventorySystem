@@ -2,9 +2,8 @@
 # Kuba_Army_Hospital_InventorySystem
 <p align="center"><img src="https://img.icons8.com/ios/380/000000/inventory-flow.png"/></p>
 
-CRUD System For Kuba Contacts With Flexible Search
-Used For Helping Employees  To Contact EachOther.
-
+CRUD System For Kuba 
+Used For Inventory Of The Stock.
 
 ### Features
 
